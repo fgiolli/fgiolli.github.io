@@ -1,0 +1,5 @@
+La sesion en vivo no es necesaria
+
+Fuente activa: 6c9fcd
+Fuente (blanco): e5e5e5
+Rectangulos (partidos, resultados, torneos): 5c7890
