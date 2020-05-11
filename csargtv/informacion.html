@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+<div class="container col-sm-8 text-center">
+  <img class="imgheader" src="images/Logo.png" alt="Logo">
+</div>
+<div class="container col-sm-8">
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark text-center">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  	</button>
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	<ul class="navbar-nav mr-auto">
+		
+    	<li class="nav-item">
+      		<a class="nav-link" href="index.html">NOTICIAS</a>
+    	</li>
+    	<li class="nav-item">
+      		<a class="nav-link" href="partidos.html">PARTIDOS</a>
+    	</li>
+		<li class="nav-item">
+      		<a class="nav-link" href="resultados.html">RESULTADOS</a>
+    	</li>
+		<li class="nav-item">
+      		<a class="nav-link" href="torneos.html">TORNEOS</a>
+    	</li>
+		<li class="nav-item">
+      		<a class="nav-link active" href="#">INFO</a>
+    	</li>
+  	</ul>
+		<form action="/busqueda.php">
+      		<input type="text" name="search">
+      		<button class="searchbutton" type="submit"><i class="fa fa-search"></i></button>
+    	</form>
+	</div>
+	</nav>
+</div>
+<div class="container col-sm-8 text-center">
+  <div id="contenedor" class= "bg-dark infoBox">
+        <div class="col-md-auto"><h1>Información</h1></div>
+        <div class="lineaseparador"></div>
+	  	<p>"CS ArgTV" Es un proyecto creado a base de la página web 'HLTV.org' en la cual nos encargamos que aquellas personas que desean obtener información sobre ya sean partidos y/o torneos de la escena competitiva de 'Counter Strike Global Offensive Argentina' puedan hacerlo a través de esta web. </p>
+	  	<p>Este proyecto está en proceso de desarrollo y este mismo está completamente hecho para y por la comunidad ( <i>cabe destacar que por el momento disponemos de un host gratuito, en torno la página reciba apoyo en un futuro esto podría cambiar y todo aquel que quiera y pueda aportar a la misma será bienvenido y ayudará a mantener la misma</i> ). Estamos abiertos a recibir críticas constructivas y a remover todo tipo de contenido el cual este bajo derechos de autor.</p>
+	  	<p>Esperamos generar un impacto positivo en la comunidad de Counter Strike Global Offensive Argentina y ser bienvenidos, aquellas personas que quieran asentar alguna sugerencia y/o idea pueden contactarnos al email <b>csargtv@gmail.com</b>.</p>
+	  <span>¡MUCHAS GRACIAS Y BIENVENIDO A 'CS ARGTV'!</span>
+	  <div class="lineaseparador"></div><br>
+  </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.3.1.min.js"></script> 
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script> 
+    <script src="js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>

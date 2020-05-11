@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* Lo que hace es importar una fuente de letras desde algun directorio */
+@font-face {
+  font-family: Doubleplus;
+  src: url("../Doubleplus.otf") format("opentype");
+}
+
+
+/* Con esto le doy imagen al fondo */
+body {
+	background:url(../images/Fondo.png);
+}
+/* Lo que hace la siguiente clase es darle un fondo #141414, un color a las letras #e5e5e5 */
+.bg-dark{
+	background-color: #141414 !important; 
+	color: #e5e5e5 !important;
+	font-family: Doubleplus;
+}
+
+ /* Acá cree una clase imgheader para centrar la imagen de la cabecera en la web */
+.imgheader{
+}
+
+/* ------------------------------------------------------------------ */
+/* Ahora vamos con el menú */
+/* ------------------------------------------------------------------ */
+
+/* Lo que hace la siguiente es ponerle un color a #e5e5e5 (blanco) a letras del menu ya que la que esta por default en bootstrap es gris */
+.nav-link{
+	color: #e5e5e5 !important;
+}
+/* al pasar el mouse por las letras las cambia a celeste */
+.nav-link:hover{
+	color: #6c9fcd !important;
+}
+/* si esta en la página actual muestra el boton del menú en celeste */
+.active{
+	color: #6c9fcd !important;
+	font-family: Doubleplus;
+}
+/* Esto es la caja de texto para buscar, lo que hice fue darle una sombra, color a las letras y adaptarlo para que quede como en la imagen */
+.navbar input{
+	padding: 0px 6px 0px 0px;
+  	margin: 0px -4px 0px 0px;
+  	font-size: 16px;
+	color: #e5e5e5;
+	border: none;
+	background-color: #393939;
+	box-shadow: inset 0px 0px 300px -25px rgba(0,0,0,0.55);
+}
+
+/* Esto es el menú, reescribí algunas variables para hacerlo más grande, exactamente le agregue relleno (padding) y un margen para separar el contenedor del menú */
+.navbar {
+	margin-bottom: 10px;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+
+/* Con esto le saco el borde a todos los BOTONES en el menú, además le doy color blanco a las letras y las centro con margin */
+.navbar button {
+	color: #e5e5e5;
+	margin: auto;
+	border: none;
+}
+
+/* Esto le da un fondo negro al botón de menu desplegable para el celular */
+.navbar-toggler .navbar-toggler-icon {
+	background-color: #141414;
+}
+
+/* Esto es el boton de busqueda, le di un fondo negro, un tono blanco a las letras y le agregue relleno y margen para que cuadre bien con la caja de busqueda, también le agregue una sombra hacia dentro */
+.searchbutton {
+	color: #e5e5e5;
+	margin: 2px 4px 5px -1px !important;
+	padding: 0px 8px 0px 6px !important;
+  	background: #393939;
+  	font-size: 16px;
+  	border: none;
+  	cursor: pointer;
+	box-shadow: inset 0px 0px 200px -20px rgba(0,0,0,0.55);
+}
+
+/* Esto hace que al pasar el mouse por el boton de busqueda lo cambie a celeste */
+.searchbutton:hover {
+	color: #6c9fcd;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* Ahora vamos con el contenedor que va a llevar los datos de la noticia */
+/* ------------------------------------------------------------------ */
+
+/* Esto sólo le aplica una sombra al cuadro donde van a ir los datos */
+#contenedor{ 
+	margin:auto;
+	padding-right: 6px;
+	padding-left: 12px;
+	padding-bottom: 80%;
+	box-shadow: 0px 17px 36px 1px rgba(20,20,20,0.95);
+	box-sizing: border-box;
+}
+/* Separador que va a ir al lado de la fecha */
+#lineadiseno{
+	height:1px;
+    width:1px;
+    margin-top: 10px;
+    margin-right: 40px;
+    background-color: antiquewhite;
+}
+}
