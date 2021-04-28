@@ -1,43 +1,285 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Giolli - Portfolio</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
-	<link href="css/main.css" rel="stylesheet">
-  </head>
-  <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">Projects</a>
-      <a class="nav-item nav-link" href="#">Contact</a>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Federico Giolli</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./resources/main.css" />
+    <link type="text/css" rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700">
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
+    <link href="/resources/main.js" type="text/javascript">
+    </script>>
+    <link type="text/css" href="./resources/timeline.min.css" rel="stylesheet">
+    <script src="./resources/timeline.min.js"></script>
+</head>
+
+<body>
+    <div class="page" id="home">
+        <header></header>
+
+        <div class="banner">
+            <div class="slide" style="background-image: url('resources/banner.jpg');"></div>
+        </div>
+        <div class="contained">
+
+            <div class="section top">
+                <div class="top-content">
+                    <div class="top-bts"></div>
+                    <div class="top-image">
+                        <img src='./resources/avatar.jfif' alt>
+                    </div>
+                    <div class="top-title" style="color: #f0e3ca"><strong>Federico Giolli</strong></div>
+                    <div class="top-subtit" style="color: #a35709">Web & Software Developer</div>
+                    <div class="top-socials"><a target="blank" href="https://www.facebook.com/" class="btn_animated">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                        <a target="blank" href="https://github.com/fgiolli" class="btn_animated">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                        <a target="blank" href="https://twitter.com/" class="btn_animated">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="section about" id="aboutpage">
+                    <div class="about-content">
+                        <div class="row">
+                            <div class="col col-m-12 col-t-5 col-d-5">
+                                <div class="about-list">
+                                    <ul>
+                                        <li><strong><span>Age:</strong></span> 21 Years</li>
+                                        <li><strong><span>City:</strong></span> Buenos Aires, Argentina</li>
+                                        <li><strong><span>Phone:</strong></span> +54 11 6534-2710</li>
+                                        <li><strong><span>E-mail:</strong></span><a href="mailto:fgiolli003@gmail.com">
+                                                fgiolli003@gmail.com</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col col-m-12 col-t-7 col-d-7">
+                                <div class="text-box">
+                                    <p><strong>Hi! I’m Federico Giolli.</strong></p>
+                                    <p>
+                                        I'm a Jr. Full-Stack developer, I have experience in building backend
+                                        services
+                                        (API services and async mechanisms). <br>
+                                        I love coding. While engineering problems are often fun to tackle, I'm most
+                                        attracted to solving engineering problems with a business justification.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section skills" id="skillspage">
+                    <div class="title">Skills</div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="sk-content">
+                                <div class="sk_title">
+                                    <div class="icon">
+                                        <ion-icon name="person-outline" style="font-size: 25px; color: black">
+                                        </ion-icon>
+                                    </div>
+                                    <div class="name">Personal</div>
+                                </div>
+                                <div class="skills">
+                                    <ul>
+                                        </li>
+                                        <li>
+                                            <div class="name" style="font-weight: bold;">Self-learning</div>
+                                            <div class="progress">
+                                                <div class="percentage" style="width:98%;">
+                                                    <span class="percent">
+                                                        <ion-icon name="checkmark-outline"></ion-icon>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="name" style="">Multi-tasking</div>
+                                            <div class="progress">
+                                                <div class="percentage" style="width:80%;">
+                                                    <span class="percent">
+                                                        <ion-icon name="checkmark-outline"></ion-icon>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="name" style="">Creative</div>
+                                            <div class="progress">
+                                                <div class="percentage" style="width:70%;">
+                                                    <span class="percent">
+                                                        <ion-icon name="checkmark-outline"></ion-icon>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="name" style="">Language: English</div>
+                                            <div class="progress">
+                                                <div class="percentage" style="width:50%;">
+                                                    <span class="percent">
+                                                        <ion-icon name="checkmark-outline"></ion-icon>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="sk-content">
+                                <div class="sk_title">
+                                    <div class="icon">
+                                        <ion-icon name="code-slash-outline" style="font-size: 25px; color: black">
+                                        </ion-icon>
+                                    </div>
+                                    <div class="name">Professional</div>
+                                </div>
+                                <div class="skills">
+                                    <ul>
+                                        <li>
+                                            <div class="name">HTML</div>
+                                            <div class="progress">
+                                                <div class="percentage" style="width:98%;">
+                                                    <span class="percent">
+                                                        <ion-icon name="checkmark-outline"></ion-icon>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="name">CSS</div>
+                                            <div class="progress">
+                                                <div class="percentage" style="width:95%;">
+                                                    <span class="percent">
+                                                        <ion-icon name="checkmark-outline"></ion-icon>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="name">JavaScript</div>
+                                            <div class="progress">
+                                                <div class="percentage" style="width:70%;">
+                                                    <span class="percent">
+                                                        <ion-icon name="checkmark-outline"></ion-icon>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="name">Python</div>
+                                            <div class="progress">
+                                                <div class="percentage" style="width:70%;">
+                                                    <span class="percent">
+                                                        <ion-icon name="checkmark-outline"></ion-icon>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="section works" id="workspage">
+                    <div class="title">Works</div>
+                    <div class="row box-item">
+                        <div class="col-md">
+                            <div class="image">
+                                <a href="#"><img src="/image" alt=""></a>
+                            </div>
+                            <div class="sk-content">
+                                <div class="category">React</div>
+                                <a href="#" class="name">Proyecto</a>
+                                <p> Here a simple Desc. </p>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="image">
+                                <a href="#"><img src="/image" alt=""></a>
+                            </div>
+                            <div class="sk-content">
+                                <div class="category">React</div>
+                                <a href="#" class="name">Proyecto</a>
+                                <p> Here a simple Desc. </p>
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-md">
+                            <div class="image">
+                                <a href="#"><img src="/image" alt=""></a>
+                            </div>
+                            <div class="sk-content">
+                                <div class="category">React</div>
+                                <a href="#" class="name">Proyecto</a>
+                                <p> Here a simple Desc. </p>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="image">
+                                <a href="#"><img src="/image" alt=""></a>
+                            </div>
+                            <div class="sk-content">
+                                <div class="category">React</div>
+                                <a href="#" class="name">Proyecto</a>
+                                <p> Here a simple Desc. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section knowledge" id="knowpage">
+                    <div class="title">Knowledge & Tools</div>
+                    <div class="container-fluid">
+                        <div class ="row">
+                            <div class="m-md-auto col-md-3">
+                                <i class="devicon-css3-plain-wordmark colored"></i>
+                                <i class="devicon-html5-plain-wordmark colored"></i>
+                                <i class="devicon-javascript-plain colored"></i>
+                                <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                                <i class="devicon-angularjs-plain colored"></i>
+                                <i class="devicon-react-plain-wordmark colored"></i>
+                                <i class="devicon-python-plain-wordmark colored"></i>
+                                <i class="devicon-flask-original colored"></i>
+                                <i class="devicon-django-plain-wordmark colored"></i>
+                                <i class="devicon-git-plain-wordmark colored"></i>
+                                <i class="devicon-mongodb-plain-wordmark colored"></i>
+                                <i class="devicon-postgresql-plain-wordmark colored"></i>
+                                <i class="devicon-npm-original-wordmark colored"></i>
+                                <i class="devicon-nodejs-plain-wordmark colored"></i>
+                                <i class="devicon-express-original-wordmark colored"></i>
+                            </div>
+                        </class>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</nav>
-<section id="Home">
-<div class="container-fluid">
-<div class="col-sm">
-	<div class="contenido text-center">
-		<img src="images/Berry.png" alt="Logo" class="logo">
-		<br>
-		<span id="dev">En desarrollo</span>
-	</div>
-</div>
-</div>
-</section>
-	  
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-    <script src="js/jquery-3.3.1.min.js"></script> 
-    <!-- Include all compiled plugins (below), or include individual files as needed --> 
-    <script src="js/popper.min.js"></script> 
-    <script src="js/bootstrap-4.3.1.js"></script>
-  </body>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+
 </html>
